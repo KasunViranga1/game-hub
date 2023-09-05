@@ -1,610 +1,881 @@
-export default [
-  {
-    "id": 1,
-    "name": "PC",
-    "slug": "pc",
-    "platforms": [
-      {
-        "id": 4,
-        "name": "PC",
-        "slug": "pc",
-        "games_count": 534727,
-        "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "PlayStation",
-    "slug": "playstation",
-    "platforms": [
-      {
-        "id": 187,
-        "name": "PlayStation 5",
-        "slug": "playstation5",
-        "games_count": 819,
-        "image_background": "https://media.rawg.io/media/games/d89/d89bd0cf4fcdc10820892980cbba0f49.jpg",
-        "image": null,
-        "year_start": 2020,
-        "year_end": null
-      },
-      {
-        "id": 18,
-        "name": "PlayStation 4",
-        "slug": "playstation4",
-        "games_count": 6590,
-        "image_background": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 16,
-        "name": "PlayStation 3",
-        "slug": "playstation3",
-        "games_count": 3323,
-        "image_background": "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 15,
-        "name": "PlayStation 2",
-        "slug": "playstation2",
-        "games_count": 1970,
-        "image_background": "https://media.rawg.io/media/games/683/6833fbb183fd72a61c032501e3bc6d36.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 27,
-        "name": "PlayStation",
-        "slug": "playstation1",
-        "games_count": 1606,
-        "image_background": "https://media.rawg.io/media/games/0c5/0c5fcdf04048200da14b90e0e6cfaf6b.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 19,
-        "name": "PS Vita",
-        "slug": "ps-vita",
-        "games_count": 1667,
-        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 17,
-        "name": "PSP",
-        "slug": "psp",
-        "games_count": 1438,
-        "image_background": "https://media.rawg.io/media/games/a6c/a6cd31267a20a615d35f618e766208fc.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Xbox",
-    "slug": "xbox",
-    "platforms": [
-      {
-        "id": 1,
-        "name": "Xbox One",
-        "slug": "xbox-one",
-        "games_count": 5485,
-        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 186,
-        "name": "Xbox Series S/X",
-        "slug": "xbox-series-x",
-        "games_count": 730,
-        "image_background": "https://media.rawg.io/media/games/d47/d479582ed0a46496ad34f65c7099d7e5.jpg",
-        "image": null,
-        "year_start": 2020,
-        "year_end": null
-      },
-      {
-        "id": 14,
-        "name": "Xbox 360",
-        "slug": "xbox360",
-        "games_count": 2780,
-        "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 80,
-        "name": "Xbox",
-        "slug": "xbox-old",
-        "games_count": 722,
-        "image_background": "https://media.rawg.io/media/games/bc7/bc77b1eb8e35df2d90b952bac5342c75.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "iOS",
-    "slug": "ios",
-    "platforms": [
-      {
-        "id": 3,
-        "name": "iOS",
-        "slug": "ios",
-        "games_count": 76450,
-        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Android",
-    "slug": "android",
-    "platforms": [
-      {
-        "id": 21,
-        "name": "Android",
-        "slug": "android",
-        "games_count": 54864,
-        "image_background": "https://media.rawg.io/media/games/e74/e74458058b35e01c1ae3feeb39a3f724.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Apple Macintosh",
-    "slug": "mac",
-    "platforms": [
-      {
-        "id": 5,
-        "name": "macOS",
-        "slug": "macos",
-        "games_count": 106165,
-        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 55,
-        "name": "Classic Macintosh",
-        "slug": "macintosh",
-        "games_count": 677,
-        "image_background": "https://media.rawg.io/media/games/dd7/dd72d8a527cd9245c7eb7cd05aa53efa.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 41,
-        "name": "Apple II",
-        "slug": "apple-ii",
-        "games_count": 422,
-        "image_background": "https://media.rawg.io/media/screenshots/510/510ad66178757fcafc467d6d01c3b425.jpeg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Linux",
-    "slug": "linux",
-    "platforms": [
-      {
-        "id": 6,
-        "name": "Linux",
-        "slug": "linux",
-        "games_count": 78912,
-        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Nintendo",
-    "slug": "nintendo",
-    "platforms": [
-      {
-        "id": 7,
-        "name": "Nintendo Switch",
-        "slug": "nintendo-switch",
-        "games_count": 5190,
-        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 8,
-        "name": "Nintendo 3DS",
-        "slug": "nintendo-3ds",
-        "games_count": 1731,
-        "image_background": "https://media.rawg.io/media/games/369/36914d895c20e35f273286145c267764.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 9,
-        "name": "Nintendo DS",
-        "slug": "nintendo-ds",
-        "games_count": 2476,
-        "image_background": "https://media.rawg.io/media/screenshots/157/1571cdfb52888191eabaf53c2b897240.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 13,
-        "name": "Nintendo DSi",
-        "slug": "nintendo-dsi",
-        "games_count": 37,
-        "image_background": "https://media.rawg.io/media/screenshots/b45/b452e9b20e969a64d0088ae467d1dcab.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 10,
-        "name": "Wii U",
-        "slug": "wii-u",
-        "games_count": 1203,
-        "image_background": "https://media.rawg.io/media/games/849/849414b978db37d4563ff9e4b0d3a787.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 11,
-        "name": "Wii",
-        "slug": "wii",
-        "games_count": 2269,
-        "image_background": "https://media.rawg.io/media/screenshots/f10/f10e7cafed6665861c58187b2ae3b310.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 105,
-        "name": "GameCube",
-        "slug": "gamecube",
-        "games_count": 642,
-        "image_background": "https://media.rawg.io/media/games/4f5/4f57124f7c0285150626cd1411c45b6e.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 83,
-        "name": "Nintendo 64",
-        "slug": "nintendo-64",
-        "games_count": 364,
-        "image_background": "https://media.rawg.io/media/games/f62/f62d090119e5ff05c59036480123fd83.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 24,
-        "name": "Game Boy Advance",
-        "slug": "game-boy-advance",
-        "games_count": 956,
-        "image_background": "https://media.rawg.io/media/games/dc6/dc68ca77e06ad993aade7faf645f5ec2.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 43,
-        "name": "Game Boy Color",
-        "slug": "game-boy-color",
-        "games_count": 414,
-        "image_background": "https://media.rawg.io/media/games/a9a/a9a2472f862b041d2980103ddbb61c91.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 26,
-        "name": "Game Boy",
-        "slug": "game-boy",
-        "games_count": 604,
-        "image_background": "https://media.rawg.io/media/screenshots/1e5/1e5e083780bb330479f7c778e6a0b7f0.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 79,
-        "name": "SNES",
-        "slug": "snes",
-        "games_count": 940,
-        "image_background": "https://media.rawg.io/media/games/0df/0dfe8852fa43d58cbdeb973765a9828d.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 49,
-        "name": "NES",
-        "slug": "nes",
-        "games_count": 970,
-        "image_background": "https://media.rawg.io/media/games/98e/98e3ce9d1be0f578d120168fb6c1e0a0.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Atari",
-    "slug": "atari",
-    "platforms": [
-      {
-        "id": 28,
-        "name": "Atari 7800",
-        "slug": "atari-7800",
-        "games_count": 64,
-        "image_background": "https://media.rawg.io/media/screenshots/565/56504b28b184dbc630a7de118e39d822.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 31,
-        "name": "Atari 5200",
-        "slug": "atari-5200",
-        "games_count": 64,
-        "image_background": "https://media.rawg.io/media/screenshots/61a/61a60e3ee55941387681eaa59e3becbf.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 23,
-        "name": "Atari 2600",
-        "slug": "atari-2600",
-        "games_count": 286,
-        "image_background": "https://media.rawg.io/media/games/23e/23eecccb588a4a9c97f35ebf8f9f00ef.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 22,
-        "name": "Atari Flashback",
-        "slug": "atari-flashback",
-        "games_count": 30,
-        "image_background": "https://media.rawg.io/media/screenshots/2aa/2aa07f58491e14b0183333f8956bc802.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 25,
-        "name": "Atari 8-bit",
-        "slug": "atari-8-bit",
-        "games_count": 306,
-        "image_background": "https://media.rawg.io/media/screenshots/b12/b12ed274eed80e4aced37badf228d1cf.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 34,
-        "name": "Atari ST",
-        "slug": "atari-st",
-        "games_count": 834,
-        "image_background": "https://media.rawg.io/media/screenshots/f7a/f7a70f1b271de9b92a9714db33e4c8ba.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 46,
-        "name": "Atari Lynx",
-        "slug": "atari-lynx",
-        "games_count": 56,
-        "image_background": "https://media.rawg.io/media/screenshots/575/575b2838392ed177dd7d2c734c682f93.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 50,
-        "name": "Atari XEGS",
-        "slug": "atari-xegs",
-        "games_count": 22,
-        "image_background": "https://media.rawg.io/media/screenshots/769/7691726d70c23c029903df08858df001.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 112,
-        "name": "Jaguar",
-        "slug": "jaguar",
-        "games_count": 37,
-        "image_background": "https://media.rawg.io/media/screenshots/7dd/7dd630a9b38257450b53099932d3047d.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Commodore / Amiga",
-    "slug": "commodore-amiga",
-    "platforms": [
-      {
-        "id": 166,
-        "name": "Commodore / Amiga",
-        "slug": "commodore-amiga",
-        "games_count": 2061,
-        "image_background": "https://media.rawg.io/media/games/a9a/a9a2472f862b041d2980103ddbb61c91.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "SEGA",
-    "slug": "sega",
-    "platforms": [
-      {
-        "id": 167,
-        "name": "Genesis",
-        "slug": "genesis",
-        "games_count": 824,
-        "image_background": "https://media.rawg.io/media/games/373/373a9a1f664de6e4c31f08644729e2db.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 107,
-        "name": "SEGA Saturn",
-        "slug": "sega-saturn",
-        "games_count": 347,
-        "image_background": "https://media.rawg.io/media/games/47b/47b50d880be8453bf9cda6e5c007bc26.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 119,
-        "name": "SEGA CD",
-        "slug": "sega-cd",
-        "games_count": 161,
-        "image_background": "https://media.rawg.io/media/screenshots/b45/b452e9b20e969a64d0088ae467d1dcab.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 117,
-        "name": "SEGA 32X",
-        "slug": "sega-32x",
-        "games_count": 47,
-        "image_background": "https://media.rawg.io/media/games/0df/0dfe8852fa43d58cbdeb973765a9828d.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 74,
-        "name": "SEGA Master System",
-        "slug": "sega-master-system",
-        "games_count": 223,
-        "image_background": "https://media.rawg.io/media/screenshots/f9a/f9ac59bb4af2ca2193ee9ffb979577cf.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 106,
-        "name": "Dreamcast",
-        "slug": "dreamcast",
-        "games_count": 353,
-        "image_background": "https://media.rawg.io/media/games/1cf/1cf9e301f1d27172546dcabc2f6cb597.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      },
-      {
-        "id": 77,
-        "name": "Game Gear",
-        "slug": "game-gear",
-        "games_count": 217,
-        "image_background": "https://media.rawg.io/media/games/2c3/2c3363eb1ae202b9e4e7520d3f14ab2e.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "3DO",
-    "slug": "3do",
-    "platforms": [
-      {
-        "id": 111,
-        "name": "3DO",
-        "slug": "3do",
-        "games_count": 95,
-        "image_background": "https://media.rawg.io/media/screenshots/180/180b5f6e5d8c770bbbf941b9875046b6.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Neo Geo",
-    "slug": "neo-geo",
-    "platforms": [
-      {
-        "id": 12,
-        "name": "Neo Geo",
-        "slug": "neogeo",
-        "games_count": 113,
-        "image_background": "https://media.rawg.io/media/screenshots/488/488788e787a69d5ecf3c74884548ec24.jpg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Web",
-    "slug": "web",
-    "platforms": [
-      {
-        "id": 171,
-        "name": "Web",
-        "slug": "web",
-        "games_count": 269156,
-        "image_background": "https://media.rawg.io/media/screenshots/78d/78d2dc36ce3b03af2e3000a078da8185.jpeg",
-        "image": null,
-        "year_start": null,
-        "year_end": null
-      }
-    ]
-  }
-]
+export default {
+  count: 19,
+  next: null,
+  previous: null,
+  results: [
+    {
+      id: 4,
+      name: "Action",
+      slug: "action",
+      games_count: 174165,
+      image_background:
+        "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg",
+      games: [
+        {
+          id: 3498,
+          slug: "grand-theft-auto-v",
+          name: "Grand Theft Auto V",
+          added: 19981,
+        },
+        {
+          id: 3328,
+          slug: "the-witcher-3-wild-hunt",
+          name: "The Witcher 3: Wild Hunt",
+          added: 19254,
+        },
+        {
+          id: 4291,
+          slug: "counter-strike-global-offensive",
+          name: "Counter-Strike: Global Offensive",
+          added: 15802,
+        },
+        {
+          id: 5286,
+          slug: "tomb-raider",
+          name: "Tomb Raider (2013)",
+          added: 15801,
+        },
+        {
+          id: 12020,
+          slug: "left-4-dead-2",
+          name: "Left 4 Dead 2",
+          added: 15360,
+        },
+        {
+          id: 5679,
+          slug: "the-elder-scrolls-v-skyrim",
+          name: "The Elder Scrolls V: Skyrim",
+          added: 15103,
+        },
+      ],
+    },
+    {
+      id: 51,
+      name: "Indie",
+      slug: "indie",
+      games_count: 55188,
+      image_background:
+        "https://media.rawg.io/media/games/4cf/4cfc6b7f1850590a4634b08bfab308ab.jpg",
+      games: [
+        {
+          id: 1030,
+          slug: "limbo",
+          name: "Limbo",
+          added: 12839,
+        },
+        {
+          id: 3272,
+          slug: "rocket-league",
+          name: "Rocket League",
+          added: 11762,
+        },
+        {
+          id: 422,
+          slug: "terraria",
+          name: "Terraria",
+          added: 11736,
+        },
+        {
+          id: 9767,
+          slug: "hollow-knight",
+          name: "Hollow Knight",
+          added: 10182,
+        },
+        {
+          id: 3612,
+          slug: "hotline-miami",
+          name: "Hotline Miami",
+          added: 9857,
+        },
+        {
+          id: 3790,
+          slug: "outlast",
+          name: "Outlast",
+          added: 9788,
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Adventure",
+      slug: "adventure",
+      games_count: 133888,
+      image_background:
+        "https://media.rawg.io/media/games/364/3642d850efb217c58feab80b8affaa89.jpg",
+      games: [
+        {
+          id: 3498,
+          slug: "grand-theft-auto-v",
+          name: "Grand Theft Auto V",
+          added: 19981,
+        },
+        {
+          id: 3328,
+          slug: "the-witcher-3-wild-hunt",
+          name: "The Witcher 3: Wild Hunt",
+          added: 19254,
+        },
+        {
+          id: 5286,
+          slug: "tomb-raider",
+          name: "Tomb Raider (2013)",
+          added: 15801,
+        },
+        {
+          id: 13536,
+          slug: "portal",
+          name: "Portal",
+          added: 15428,
+        },
+        {
+          id: 28,
+          slug: "red-dead-redemption-2",
+          name: "Red Dead Redemption 2",
+          added: 14572,
+        },
+        {
+          id: 3439,
+          slug: "life-is-strange-episode-1-2",
+          name: "Life is Strange",
+          added: 14393,
+        },
+      ],
+    },
+    {
+      id: 5,
+      name: "RPG",
+      slug: "role-playing-games-rpg",
+      games_count: 53162,
+      image_background:
+        "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg",
+      games: [
+        {
+          id: 3328,
+          slug: "the-witcher-3-wild-hunt",
+          name: "The Witcher 3: Wild Hunt",
+          added: 19254,
+        },
+        {
+          id: 5679,
+          slug: "the-elder-scrolls-v-skyrim",
+          name: "The Elder Scrolls V: Skyrim",
+          added: 15103,
+        },
+        {
+          id: 802,
+          slug: "borderlands-2",
+          name: "Borderlands 2",
+          added: 14406,
+        },
+        {
+          id: 58175,
+          slug: "god-of-war-2",
+          name: "God of War (2018)",
+          added: 12778,
+        },
+        {
+          id: 3070,
+          slug: "fallout-4",
+          name: "Fallout 4",
+          added: 12743,
+        },
+        {
+          id: 278,
+          slug: "horizon-zero-dawn",
+          name: "Horizon Zero Dawn",
+          added: 12071,
+        },
+      ],
+    },
+    {
+      id: 10,
+      name: "Strategy",
+      slug: "strategy",
+      games_count: 53375,
+      image_background:
+        "https://media.rawg.io/media/games/e4a/e4ab7f784bdc38c76ce6e4cef9715d18.jpg",
+      games: [
+        {
+          id: 13633,
+          slug: "civilization-v",
+          name: "Sid Meier's Civilization V",
+          added: 8890,
+        },
+        {
+          id: 10243,
+          slug: "company-of-heroes-2",
+          name: "Company of Heroes 2",
+          added: 8840,
+        },
+        {
+          id: 13910,
+          slug: "xcom-enemy-unknown",
+          name: "XCOM: Enemy Unknown",
+          added: 7872,
+        },
+        {
+          id: 5525,
+          slug: "brutal-legend",
+          name: "Brutal Legend",
+          added: 7807,
+        },
+        {
+          id: 10065,
+          slug: "cities-skylines",
+          name: "Cities: Skylines",
+          added: 7753,
+        },
+        {
+          id: 11147,
+          slug: "ark-survival-of-the-fittest",
+          name: "ARK: Survival Of The Fittest",
+          added: 7585,
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Shooter",
+      slug: "shooter",
+      games_count: 59354,
+      image_background:
+        "https://media.rawg.io/media/games/e6d/e6de699bd788497f4b52e2f41f9698f2.jpg",
+      games: [
+        {
+          id: 4200,
+          slug: "portal-2",
+          name: "Portal 2",
+          added: 18156,
+        },
+        {
+          id: 4291,
+          slug: "counter-strike-global-offensive",
+          name: "Counter-Strike: Global Offensive",
+          added: 15802,
+        },
+        {
+          id: 12020,
+          slug: "left-4-dead-2",
+          name: "Left 4 Dead 2",
+          added: 15360,
+        },
+        {
+          id: 4062,
+          slug: "bioshock-infinite",
+          name: "BioShock Infinite",
+          added: 14567,
+        },
+        {
+          id: 802,
+          slug: "borderlands-2",
+          name: "Borderlands 2",
+          added: 14406,
+        },
+        {
+          id: 13537,
+          slug: "half-life-2",
+          name: "Half-Life 2",
+          added: 13726,
+        },
+      ],
+    },
+    {
+      id: 40,
+      name: "Casual",
+      slug: "casual",
+      games_count: 46417,
+      image_background:
+        "https://media.rawg.io/media/games/501/501e7019925a3c692bf1c8062f07abe6.jpg",
+      games: [
+        {
+          id: 9721,
+          slug: "garrys-mod",
+          name: "Garry's Mod",
+          added: 9139,
+        },
+        {
+          id: 326292,
+          slug: "fall-guys",
+          name: "Fall Guys: Ultimate Knockout",
+          added: 8078,
+        },
+        {
+          id: 9830,
+          slug: "brawlhalla",
+          name: "Brawlhalla",
+          added: 7019,
+        },
+        {
+          id: 356714,
+          slug: "among-us",
+          name: "Among Us",
+          added: 6677,
+        },
+        {
+          id: 1959,
+          slug: "goat-simulator",
+          name: "Goat Simulator",
+          added: 5997,
+        },
+        {
+          id: 16343,
+          slug: "a-story-about-my-uncle",
+          name: "A Story About My Uncle",
+          added: 5625,
+        },
+      ],
+    },
+    {
+      id: 14,
+      name: "Simulation",
+      slug: "simulation",
+      games_count: 66491,
+      image_background:
+        "https://media.rawg.io/media/games/d1e/d1e70ce3762efcfc170c6bd067d7e9e3.jpg",
+      games: [
+        {
+          id: 10035,
+          slug: "hitman",
+          name: "Hitman",
+          added: 10073,
+        },
+        {
+          id: 654,
+          slug: "stardew-valley",
+          name: "Stardew Valley",
+          added: 9266,
+        },
+        {
+          id: 9721,
+          slug: "garrys-mod",
+          name: "Garry's Mod",
+          added: 9139,
+        },
+        {
+          id: 10243,
+          slug: "company-of-heroes-2",
+          name: "Company of Heroes 2",
+          added: 8840,
+        },
+        {
+          id: 9882,
+          slug: "dont-starve-together",
+          name: "Don't Starve Together",
+          added: 8593,
+        },
+        {
+          id: 22509,
+          slug: "minecraft",
+          name: "Minecraft",
+          added: 7909,
+        },
+      ],
+    },
+    {
+      id: 7,
+      name: "Puzzle",
+      slug: "puzzle",
+      games_count: 97150,
+      image_background:
+        "https://media.rawg.io/media/games/c00/c003705c0eaed100397ae408b7b89e90.jpg",
+      games: [
+        {
+          id: 4200,
+          slug: "portal-2",
+          name: "Portal 2",
+          added: 18156,
+        },
+        {
+          id: 13536,
+          slug: "portal",
+          name: "Portal",
+          added: 15428,
+        },
+        {
+          id: 1030,
+          slug: "limbo",
+          name: "Limbo",
+          added: 12839,
+        },
+        {
+          id: 19709,
+          slug: "half-life-2-episode-two",
+          name: "Half-Life 2: Episode Two",
+          added: 10247,
+        },
+        {
+          id: 18080,
+          slug: "half-life",
+          name: "Half-Life",
+          added: 9451,
+        },
+        {
+          id: 1450,
+          slug: "inside",
+          name: "INSIDE",
+          added: 7485,
+        },
+      ],
+    },
+    {
+      id: 11,
+      name: "Arcade",
+      slug: "arcade",
+      games_count: 22578,
+      image_background:
+        "https://media.rawg.io/media/games/7cf/7cf38d2d80267c121c6d0d361e9429ce.jpg",
+      games: [
+        {
+          id: 3612,
+          slug: "hotline-miami",
+          name: "Hotline Miami",
+          added: 9857,
+        },
+        {
+          id: 17540,
+          slug: "injustice-gods-among-us-ultimate-edition",
+          name: "Injustice: Gods Among Us Ultimate Edition",
+          added: 9002,
+        },
+        {
+          id: 22509,
+          slug: "minecraft",
+          name: "Minecraft",
+          added: 7909,
+        },
+        {
+          id: 4003,
+          slug: "grid-2",
+          name: "GRID 2",
+          added: 7100,
+        },
+        {
+          id: 3408,
+          slug: "hotline-miami-2-wrong-number",
+          name: "Hotline Miami 2: Wrong Number",
+          added: 5780,
+        },
+        {
+          id: 16343,
+          slug: "a-story-about-my-uncle",
+          name: "A Story About My Uncle",
+          added: 5625,
+        },
+      ],
+    },
+    {
+      id: 83,
+      name: "Platformer",
+      slug: "platformer",
+      games_count: 100648,
+      image_background:
+        "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg",
+      games: [
+        {
+          id: 1030,
+          slug: "limbo",
+          name: "Limbo",
+          added: 12839,
+        },
+        {
+          id: 422,
+          slug: "terraria",
+          name: "Terraria",
+          added: 11736,
+        },
+        {
+          id: 9767,
+          slug: "hollow-knight",
+          name: "Hollow Knight",
+          added: 10182,
+        },
+        {
+          id: 41,
+          slug: "little-nightmares",
+          name: "Little Nightmares",
+          added: 10124,
+        },
+        {
+          id: 18080,
+          slug: "half-life",
+          name: "Half-Life",
+          added: 9451,
+        },
+        {
+          id: 3144,
+          slug: "super-meat-boy",
+          name: "Super Meat Boy",
+          added: 8943,
+        },
+      ],
+    },
+    {
+      id: 59,
+      name: "Massively Multiplayer",
+      slug: "massively-multiplayer",
+      games_count: 3323,
+      image_background:
+        "https://media.rawg.io/media/games/26b/26b27e1da9e3727fcb12e3e4e86c8c19.jpg",
+      games: [
+        {
+          id: 32,
+          slug: "destiny-2",
+          name: "Destiny 2",
+          added: 12860,
+        },
+        {
+          id: 10213,
+          slug: "dota-2",
+          name: "Dota 2",
+          added: 11649,
+        },
+        {
+          id: 766,
+          slug: "warframe",
+          name: "Warframe",
+          added: 11547,
+        },
+        {
+          id: 290856,
+          slug: "apex-legends",
+          name: "Apex Legends",
+          added: 10359,
+        },
+        {
+          id: 10533,
+          slug: "path-of-exile",
+          name: "Path of Exile",
+          added: 9302,
+        },
+        {
+          id: 10142,
+          slug: "playerunknowns-battlegrounds",
+          name: "PlayerUnknown’s Battlegrounds",
+          added: 9160,
+        },
+      ],
+    },
+    {
+      id: 1,
+      name: "Racing",
+      slug: "racing",
+      games_count: 24144,
+      image_background:
+        "https://media.rawg.io/media/games/367/367463d43c2a1465f27e830b5b1334ee.jpg",
+      games: [
+        {
+          id: 3272,
+          slug: "rocket-league",
+          name: "Rocket League",
+          added: 11762,
+        },
+        {
+          id: 4003,
+          slug: "grid-2",
+          name: "GRID 2",
+          added: 7100,
+        },
+        {
+          id: 2572,
+          slug: "dirt-rally",
+          name: "DiRT Rally",
+          added: 6384,
+        },
+        {
+          id: 58753,
+          slug: "forza-horizon-4",
+          name: "Forza Horizon 4",
+          added: 5726,
+        },
+        {
+          id: 5578,
+          slug: "grid",
+          name: "Race Driver: Grid",
+          added: 5179,
+        },
+        {
+          id: 19491,
+          slug: "burnout-paradise-the-ultimate-box",
+          name: "Burnout Paradise: The Ultimate Box",
+          added: 4476,
+        },
+      ],
+    },
+    {
+      id: 15,
+      name: "Sports",
+      slug: "sports",
+      games_count: 20744,
+      image_background:
+        "https://media.rawg.io/media/screenshots/f5a/f5abab52c4d606551cd5ec3ab709e501.jpg",
+      games: [
+        {
+          id: 3272,
+          slug: "rocket-league",
+          name: "Rocket League",
+          added: 11762,
+        },
+        {
+          id: 326292,
+          slug: "fall-guys",
+          name: "Fall Guys: Ultimate Knockout",
+          added: 8078,
+        },
+        {
+          id: 2572,
+          slug: "dirt-rally",
+          name: "DiRT Rally",
+          added: 6384,
+        },
+        {
+          id: 53341,
+          slug: "jet-set-radio-2012",
+          name: "Jet Set Radio",
+          added: 4911,
+        },
+        {
+          id: 9575,
+          slug: "vrchat",
+          name: "VRChat",
+          added: 4273,
+        },
+        {
+          id: 622492,
+          slug: "forza-horizon-5",
+          name: "Forza Horizon 5",
+          added: 4221,
+        },
+      ],
+    },
+    {
+      id: 6,
+      name: "Fighting",
+      slug: "fighting",
+      games_count: 11706,
+      image_background:
+        "https://media.rawg.io/media/games/234/23410661770ae13eac11066980834367.jpg",
+      games: [
+        {
+          id: 17540,
+          slug: "injustice-gods-among-us-ultimate-edition",
+          name: "Injustice: Gods Among Us Ultimate Edition",
+          added: 9002,
+        },
+        {
+          id: 108,
+          slug: "mortal-kombat-x",
+          name: "Mortal Kombat X",
+          added: 8297,
+        },
+        {
+          id: 28179,
+          slug: "sega-mega-drive-and-genesis-classics",
+          name: "SEGA Mega Drive and Genesis Classics",
+          added: 7645,
+        },
+        {
+          id: 9830,
+          slug: "brawlhalla",
+          name: "Brawlhalla",
+          added: 7019,
+        },
+        {
+          id: 274480,
+          slug: "mortal-kombat-11",
+          name: "Mortal Kombat 11",
+          added: 5032,
+        },
+        {
+          id: 44525,
+          slug: "yakuza-kiwami",
+          name: "Yakuza Kiwami",
+          added: 4261,
+        },
+      ],
+    },
+    {
+      id: 19,
+      name: "Family",
+      slug: "family",
+      games_count: 5390,
+      image_background:
+        "https://media.rawg.io/media/games/89a/89a700d3c6a76bd0610ca89ccd20da54.jpg",
+      games: [
+        {
+          id: 3254,
+          slug: "journey",
+          name: "Journey",
+          added: 8044,
+        },
+        {
+          id: 2597,
+          slug: "lego-lord-of-the-rings",
+          name: "LEGO The Lord of the Rings",
+          added: 5204,
+        },
+        {
+          id: 3350,
+          slug: "broken-age",
+          name: "Broken Age",
+          added: 4808,
+        },
+        {
+          id: 3729,
+          slug: "lego-the-hobbit",
+          name: "LEGO The Hobbit",
+          added: 4775,
+        },
+        {
+          id: 1259,
+          slug: "machinarium",
+          name: "Machinarium",
+          added: 4298,
+        },
+        {
+          id: 1140,
+          slug: "world-of-goo",
+          name: "World of Goo",
+          added: 4222,
+        },
+      ],
+    },
+    {
+      id: 28,
+      name: "Board Games",
+      slug: "board-games",
+      games_count: 8328,
+      image_background:
+        "https://media.rawg.io/media/screenshots/60e/60ef1b1853c35da13bc2ca9cbd1c0539.jpeg",
+      games: [
+        {
+          id: 23557,
+          slug: "gwent-the-witcher-card-game",
+          name: "Gwent: The Witcher Card Game",
+          added: 4496,
+        },
+        {
+          id: 327999,
+          slug: "dota-underlords",
+          name: "Dota Underlords",
+          added: 3784,
+        },
+        {
+          id: 2055,
+          slug: "adventure-capitalist",
+          name: "AdVenture Capitalist",
+          added: 3166,
+        },
+        {
+          id: 758,
+          slug: "hue",
+          name: "Hue",
+          added: 2151,
+        },
+        {
+          id: 2306,
+          slug: "poker-night-2",
+          name: "Poker Night 2",
+          added: 1985,
+        },
+        {
+          id: 3187,
+          slug: "armello",
+          name: "Armello",
+          added: 1909,
+        },
+      ],
+    },
+    {
+      id: 34,
+      name: "Educational",
+      slug: "educational",
+      games_count: 15650,
+      image_background:
+        "https://media.rawg.io/media/screenshots/312/3123c2b86ff947d3b6a846c771817e06.jpeg",
+      games: [
+        {
+          id: 1358,
+          slug: "papers-please",
+          name: "Papers, Please",
+          added: 6427,
+        },
+        {
+          id: 1140,
+          slug: "world-of-goo",
+          name: "World of Goo",
+          added: 4222,
+        },
+        {
+          id: 2778,
+          slug: "surgeon-simulator-cpr",
+          name: "Surgeon Simulator",
+          added: 3734,
+        },
+        {
+          id: 9768,
+          slug: "gameguru",
+          name: "GameGuru",
+          added: 2407,
+        },
+        {
+          id: 13777,
+          slug: "sid-meiers-civilization-iv-colonization",
+          name: "Sid Meier's Civilization IV: Colonization",
+          added: 2201,
+        },
+        {
+          id: 6885,
+          slug: "pirates-3",
+          name: "Sid Meier's Pirates!",
+          added: 2119,
+        },
+      ],
+    },
+    {
+      id: 17,
+      name: "Card",
+      slug: "card",
+      games_count: 4508,
+      image_background:
+        "https://media.rawg.io/media/screenshots/3f5/3f58a7b2a2b290994eb798eb72ca3fb2.jpg",
+      games: [
+        {
+          id: 23557,
+          slug: "gwent-the-witcher-card-game",
+          name: "Gwent: The Witcher Card Game",
+          added: 4496,
+        },
+        {
+          id: 28121,
+          slug: "slay-the-spire",
+          name: "Slay the Spire",
+          added: 4498,
+        },
+        {
+          id: 18852,
+          slug: "poker-night-at-the-inventory",
+          name: "Poker Night at the Inventory",
+          added: 2645,
+        },
+        {
+          id: 8923,
+          slug: "faeria",
+          name: "Faeria",
+          added: 2070,
+        },
+        {
+          id: 332,
+          slug: "the-elder-scrolls-legends",
+          name: "The Elder Scrolls: Legends",
+          added: 2035,
+        },
+        {
+          id: 2306,
+          slug: "poker-night-2",
+          name: "Poker Night 2",
+          added: 1985,
+        },
+      ],
+    },
+  ],
+};
